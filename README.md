@@ -21,7 +21,7 @@ The primary typeface of typography is Concert One, which is a font similar to th
 4. [MAMP](https://www.mamp.info/)
 5. [imaginmin](https://libraries.io/npm/)
 6. [gulp-sass](https://www.npmjs.com/package/gulp-sass)
-7. [vue.js] (https://cli.vuejs.org/guide/installation.html)
+7. [vue.js](https://cli.vuejs.org/guide/installation.html)
 
 ### Prerequisites
 In order to create this Roku streaming page, the above program should be installed.
