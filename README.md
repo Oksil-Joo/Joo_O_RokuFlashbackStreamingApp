@@ -14,7 +14,6 @@ The primary typeface of typography is Concert One, which is a font similar to th
 - [Design document](https://docs.google.com/document/d/1HCrnyL23_EqnntXiBGVfNVKFJAsvMpEt8ApWnenlNnk/edit?usp=sharing)
 - [Dev document](https://docs.google.com/document/d/1dldCZPVgjI7pqrYsycNrXO8zZg4jXAPpTUGutPunyFE/edit?usp=sharing)
 
-<br/><br/>
 ### Installation
 1. [Node.js](https://nodejs.org/)
 2. [SASS](https://sass-lang.com/)
@@ -38,7 +37,7 @@ In order to create this Roku streaming page, the above program should be install
 
 <br/><br/>
 ### Future Plans
-i will Add a component to render and post reviews.
+I will Add a component to render and post reviews.
 
 
 <br/><br/>
