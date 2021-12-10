@@ -4,18 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
     <title>Roku</title>
 </head>
 <body>
+    <!-- header -->
     <header>
-            <h2>Happy streaming service</h2>
+        <div class="container">
+        <h1 class="hidden">logo and Navigation</h1>
+        <section class="mainNavigation">
+            <div id="topMenu">
+                <a href="index.html"></a>
+                    <img src="images/logo.svg" alt="logo">
+                </a>
+                <button id="button"></button>
+                <button id="sign">sign in</button>
+            </div>
+            <div id="bugerCon">
+                <ul id="burgerMenu">
+                    <li>menu01</li>
+                    <li>menu02</li>
+                    <li>menu03</li>
+                </ul>
+            </div>
+        </section>
+    </div>
     </header>
-    <main>
-
+    <main id="app">
+        <!-- welcome -->
+        <div class="sloganCon">
+            <img src="images/streaming.svg" alt="playImage">
+            <h2 class="slogan">Happy Streaming</h2>
+            <p>Now streaming free on the Roku Channel</p>
+        </div>
+        <div class="flashCon">
+            <div class="flashBack">Movies</div>
+            <div class="flashBack">TV</div>
+            <div class="flashBack">Musics</div>
+         </div>
+         <!-- Profiles -->
+         <div>
+             <h2>Who's watching?</h2>
+             <div class="avata">Image1</div>
+             <p>parents</p>
+             <div class="avata">Image2</div>
+             <p>Kids</p>
+         </div>
+<!-- Content -->
+         <div>
+             <h2>Stream what you love</h2>
+             <div class="show">Netflix</div>
+             <div class="show">Disney</div>
+             <div class="show">CRAVE</div>
+             <div class="show">Global</div>
+             <div class="show">Tubi</div>
+             <div class="show">PLEX</div>
+         </div>
     </main>
+    <!-- footer -->
     <footer>
-
+        <section class="footerNav">
+            <div class="social_Nav" id="wrapper">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/rokucanada">
+                            <object data="images/social_face.svg" type="image/svg+xml"></object>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/rokucanada/">
+                            <object data="images/social_insta.svg" type="image/svg+xml"></object>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/roku">
+                            <object data="images/social_twiter.svg" type="image/svg+xml"></object>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=" https://www.youtube.com/playlist?list=PLlwPsASbZ1OQURA_AUHp-ocZ91YgbcenY">
+                            <object data="images/social_youtube.svg" type="image/svg+xml"></object>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footermenu">
+                <ul>
+                    <li>menu01</li>
+                    <li>menu02</li>
+                    <li>menu03</li>
+                </ul>
+            </div>
+            <div class="legal">
+                <p>© 2021 Roku, Inc. All rights reserved.</p>
+            </div>
+        </section>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
